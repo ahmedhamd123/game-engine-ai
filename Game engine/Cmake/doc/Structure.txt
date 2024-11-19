@@ -1,0 +1,38 @@
+game-engine/
+├── build/                 # Build files for Windows/macOS
+├── core/                  # Core engine files
+│   ├── main.cpp           # Main entry point
+│   ├── engine.h           # Engine base class
+│   ├── engine.cpp         # Engine implementation
+│   ├── device_info.h      # Device capabilities detection
+│   ├── device_info.cpp    # Implementation of hardware checks
+│   ├── plugin_manager.h   # Plugin system definitions
+│   ├── plugin_manager.cpp # Plugin system implementation
+├── graphics/              # Graphics and rendering engine
+│   ├── renderer.h         # Renderer interface
+│   ├── renderer.cpp       # Basic OpenGL renderer
+│   ├── shaders/           # GLSL shaders
+├── input/                 # Input handling
+│   ├── input_manager.h    # Input manager header
+│   ├── input_manager.cpp  # Input manager implementation
+├── ai/                    # AI logic
+│   ├── ai_module.h        # AI module interface
+│   ├── ai_module.cpp      # AI module implementation
+├── encryption/            # Encryption library integration
+│   ├── encryption.h       # Encryption header (OpenSSL)
+│   ├── encryption.cpp     # Implementation of file encryption
+├── assets/                # Game assets
+│   ├── textures/          # Texture files
+│   ├── models/            # 3D models
+│   ├── audio/             # Sound effects
+├── plugins/               # Custom plugins
+│   ├── example_plugin.h   # Sample plugin header
+│   ├── example_plugin.cpp # Sample plugin implementation
+├── tests/                 # Test cases
+│   ├── test_engine.cpp    # Engine tests
+│   ├── test_plugins.cpp   # Plugin tests
+├── cmake/                 # CMake build configuration
+│   ├── CMakeLists.txt     # Main CMake configuration file
+├── docs/                  # Documentation
+│   ├── README.md          # Project overview
+│   ├── architecture.md    # Detailed explanation of architecture
