@@ -1,4 +1,19 @@
 game-engine/
+|___engine_metadata/
+     |__engine-metadata.h
+     |___engine-metadata.cpp
+|___services/
+    |__game-registry.h
+    |___game-registry.cpp
+|___platform/
+    |___mobile_setting.h
+    |___tablet_setting.h
+    |___pc_setting.h
+    |___mobile-setting.cpp
+    |___tablet-setting.cpp
+    |___pc-setting.cpp
+    |___platform selecter.h
+    |___platform selecter.cpp
 ├── build/                 # Build files for Windows/macOS
 ├── core/                  # Core engine files
 │   ├── main.cpp           # Main entry point
